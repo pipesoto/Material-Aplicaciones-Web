@@ -1,0 +1,13 @@
+table, th, td {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+body{
+
+}
+
+p{
+  background-color: #012222;
+}

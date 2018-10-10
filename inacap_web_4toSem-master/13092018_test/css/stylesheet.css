@@ -1,0 +1,47 @@
+h1{
+  font-size: 30px;
+  text-align: center;
+}
+
+h3{
+  font-size: 25px;
+  text-align: center;
+}
+
+table, th, td{
+  align-self: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td{
+   padding: 10px;
+}
+
+input{
+  display: block;
+  margin-bottom: 15px;
+  width: 200px;
+}
+legend{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+label{
+  font-weight: bold;
+
+}
+
+.button{
+  margin-right: 50px;
+  margin-top: 10px;
+  display: inline;
+
+}
+
+footer{
+  text-align: center;
+
+}
