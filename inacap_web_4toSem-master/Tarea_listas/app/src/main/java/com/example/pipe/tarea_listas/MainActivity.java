@@ -78,10 +78,24 @@ public class MainActivity extends AppCompatActivity {
         lsItem.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent i = new Intent(this, segundaActivity.class);
-                startActivity(i);
+                if(position == 0){
+
+                    Intent i = new Intent(view.getContext(), segundaActivity.class);
+                    startActivity(i);
+
+                }else if(position == 1){
+
+                    Intent i = new Intent(view.getContext(), terceraActivity.class);
+                    startActivity(i);
+
+                }else if(position == 2){
+                    Toast.makeText(MainActivity.this,   "Click Largo :" +position,Toast.LENGTH_LONG).show();
+
+                }
             }
         });
+
+
 
 
 
